@@ -9,7 +9,7 @@ There are two versions.
 1. Without Database
 2. With Database
 
-If you want to use database on heroku, just you can do is 2 steps. Please follow the instruction bellow.
+If you want to use database on heroku, just you can follow 3 steps. Please follow the instruction bellow :smiley_cat:
 
 # How to Use
 
@@ -34,4 +34,4 @@ Third, migrate with the database.
 $ heroku run rake db:migrate
 ```
 
-That's it! Enjoy your Sinatra life.
+That's it! Enjoy your Sinatra life :sunny:
