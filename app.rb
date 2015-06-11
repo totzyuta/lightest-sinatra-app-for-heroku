@@ -18,10 +18,14 @@ class User < ActiveRecord::Base
 end
 
 get '/' do
-  user = User.new
-  user.email = 'email@email.com'
-  user.order = 'example order'
-  user.save
   @users = User.all
   slim :index
+end
+
+post '/' do
+  user = User.new
+  user.email = params[:email]
+  user.order = params[:order]
+  user.save
+  redirect "/" 
 end
