@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'sinatra'
 
 # Assets
-gem 'haml'
+gem 'slim'
 gem 'sass'
 gem 'coffee-script'
 
@@ -16,8 +16,5 @@ end
 
 group :development do
   gem 'sqlite3'
-end
-
-group :development do
   gem 'foreman'
 end 
