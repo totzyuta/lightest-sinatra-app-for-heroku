@@ -5,3 +5,7 @@
   %body
     #header
       %h1 Hello, Sinatra!
+      <% @users.each do |user| %>
+        <h2><%= user.email %></h2>
+      <% end %>
+      /- @users.each do |user|

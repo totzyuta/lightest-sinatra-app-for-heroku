@@ -1,0 +1,25 @@
+DOCTYPE
+html
+  head
+    title Hello, Sinatra!
+
+  body
+    header#header
+      h1.title Hello, Sinatra!
+
+      h2 New User
+      form action="/" method="post"
+        label email: 
+        input type="text" name="email"
+        br
+        label order: 
+        input type="text" name="order"
+        br
+        input type="submit" value="Send"
+
+      h2 Users
+      - @users.each do |user|
+        ul
+          li = user.id 
+          li = user.email
+          li = user.order
