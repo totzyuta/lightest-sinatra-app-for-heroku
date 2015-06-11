@@ -57,6 +57,7 @@ DEPENDENCIES
   coffee-script
   foreman
   pg
+  rack
   sass
   sinatra
   sinatra-activerecord

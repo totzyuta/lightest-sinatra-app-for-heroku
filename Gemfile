@@ -7,6 +7,8 @@ gem 'slim'
 gem 'sass'
 gem 'coffee-script'
 
+gem 'rack'
+
 gem 'activerecord'
 gem 'sinatra-activerecord'
 
