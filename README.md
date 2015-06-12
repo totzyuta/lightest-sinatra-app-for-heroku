@@ -42,16 +42,16 @@ $ heroku open
 
 ## With Database
 
-To use database, first add heroku-postgresql. (To use heroku command, heroku tool-belt should be installed in your computer.)
+To use database, first add heroku-postgresql after creating heroku app. (To use heroku command, heroku tool-belt should be installed in your computer.)
 
 ```
+$ heroku create 
 $ heroku addons:create heroku-postgresql
 ```
 
 And create an app and push the souce.
 
 ```
-$ heroku create sinatra-app
 $ git push heroku master
 ```
 
